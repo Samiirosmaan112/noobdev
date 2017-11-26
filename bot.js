@@ -160,7 +160,7 @@ client.on("message", (message) => {
   "__**Commands**__:\nping\nsay\nkick\nban\npurge\navatar ");}
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN.rstrip());
 
 
 
